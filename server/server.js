@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000
 app = express()
 
 app.get('/', (req, res) => {
-  res.status(404)
+  res.status(200)
   res.send('Hellllllllo')
 })
 
